@@ -1,4 +1,4 @@
-![RESTRAIL Dark](./assets/logo-dark-hero.svg)
+![RESTRAIL Dark](./assets/images/logo-dark-hero.svg)
 
 **Guardrailing your REST-Endpoints from development to production.**
 
