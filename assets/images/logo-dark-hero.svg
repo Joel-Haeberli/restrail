@@ -1,0 +1,40 @@
+<svg viewBox="0 0 600 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="railGrad" x1="40" y1="40" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00dc8a"/>
+      <stop offset="100%" stop-color="#00a5e0"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="80" y1="30" x2="160" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#e0e8f0"/>
+      <stop offset="100%" stop-color="#8898a8"/>
+    </linearGradient>
+    <linearGradient id="restGrad" x1="170" y1="250" x2="360" y2="310" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#e8ecf0"/>
+      <stop offset="100%" stop-color="#a0b0c0"/>
+    </linearGradient>
+    <linearGradient id="railWordGrad" x1="350" y1="250" x2="480" y2="310" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00dc8a"/>
+      <stop offset="100%" stop-color="#00a5e0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="200" fill="#0a0b0f"/>
+
+  <!-- Wordmark: REST in white/silver, AIL in teal -->
+  <text x="300" y="100" text-anchor="middle" font-family="'Outfit', 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="64" letter-spacing="-1">
+    <tspan fill="url(#restGrad)">REST</tspan><tspan fill="url(#railWordGrad)">RAIL</tspan>
+  </text>
+
+  <text x="300" y="120" text-anchor="middle" font-family="'Courier New', monospace" font-size="15" fill="#a0b0c8" opacity="0.45" letter-spacing="4">rɛst-reɪl</text>
+
+  <!-- Tagline -->
+  <text x="300" y="160" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#a0b0c8" opacity="0.45" letter-spacing="4">GUARDRAIL YOUR REST ENDPOINTS</text>
+</svg>

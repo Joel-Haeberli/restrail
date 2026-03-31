@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="monoGrad" x1="40" y1="40" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#889098"/>
+    </linearGradient>
+  </defs>
+  <path d="M120 22L42 62V128C42 172 74 210 120 224C166 210 198 172 198 128V62L120 22Z"
+        fill="none" stroke="url(#monoGrad)" stroke-width="5" stroke-linejoin="round" opacity="0.6"/>
+  <path d="M120 38L56 72V128C56 164 82 196 120 208C158 196 184 164 184 128V72L120 38Z"
+        fill="none" stroke="url(#monoGrad)" stroke-width="1.5" opacity="0.15"/>
+  <line x1="88" y1="70" x2="88" y2="185" stroke="url(#monoGrad)" stroke-width="6" stroke-linecap="round"/>
+  <line x1="152" y1="70" x2="152" y2="185" stroke="url(#monoGrad)" stroke-width="6" stroke-linecap="round"/>
+  <line x1="82" y1="90" x2="158" y2="90" stroke="url(#monoGrad)" stroke-width="3.5" stroke-linecap="round" opacity="0.5"/>
+  <line x1="82" y1="115" x2="158" y2="115" stroke="url(#monoGrad)" stroke-width="3.5" stroke-linecap="round" opacity="0.5"/>
+  <line x1="82" y1="140" x2="158" y2="140" stroke="url(#monoGrad)" stroke-width="3.5" stroke-linecap="round" opacity="0.5"/>
+  <line x1="82" y1="165" x2="158" y2="165" stroke="url(#monoGrad)" stroke-width="3.5" stroke-linecap="round" opacity="0.5"/>
+  <text x="65" y="134" font-family="monospace" font-size="22" font-weight="700" fill="url(#monoGrad)" opacity="0.25">&lt;</text>
+  <text x="163" y="134" font-family="monospace" font-size="22" font-weight="700" fill="url(#monoGrad)" opacity="0.25">&gt;</text>
+</svg>

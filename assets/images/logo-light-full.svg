@@ -1,0 +1,47 @@
+<svg viewBox="0 0 600 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="railGradLight" x1="40" y1="40" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00b06a"/>
+      <stop offset="100%" stop-color="#0088c0"/>
+    </linearGradient>
+    <linearGradient id="shieldGradLight" x1="80" y1="30" x2="160" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1a2030"/>
+      <stop offset="100%" stop-color="#4a5570"/>
+    </linearGradient>
+    <linearGradient id="restGradLight" x1="170" y1="250" x2="360" y2="310" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1a2030"/>
+      <stop offset="100%" stop-color="#3a4560"/>
+    </linearGradient>
+    <linearGradient id="railWordGradLight" x1="350" y1="250" x2="480" y2="310" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00b06a"/>
+      <stop offset="100%" stop-color="#0088c0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="340" fill="#f4f6f8"/>
+
+  <!-- Icon centered at top -->
+  <g transform="translate(190, 10) scale(0.92)">
+    <path d="M120 22L42 62V128C42 172 74 210 120 224C166 210 198 172 198 128V62L120 22Z"
+          fill="none" stroke="url(#shieldGradLight)" stroke-width="5" stroke-linejoin="round" opacity="0.8"/>
+    <path d="M120 38L56 72V128C56 164 82 196 120 208C158 196 184 164 184 128V72L120 38Z"
+          fill="none" stroke="url(#railGradLight)" stroke-width="1.5" opacity="0.2"/>
+    <line x1="88" y1="70" x2="88" y2="185" stroke="url(#railGradLight)" stroke-width="6" stroke-linecap="round"/>
+    <line x1="152" y1="70" x2="152" y2="185" stroke="url(#railGradLight)" stroke-width="6" stroke-linecap="round"/>
+    <line x1="82" y1="90" x2="158" y2="90" stroke="url(#railGradLight)" stroke-width="3.5" stroke-linecap="round" opacity="0.6"/>
+    <line x1="82" y1="115" x2="158" y2="115" stroke="url(#railGradLight)" stroke-width="3.5" stroke-linecap="round" opacity="0.6"/>
+    <line x1="82" y1="140" x2="158" y2="140" stroke="url(#railGradLight)" stroke-width="3.5" stroke-linecap="round" opacity="0.6"/>
+    <line x1="82" y1="165" x2="158" y2="165" stroke="url(#railGradLight)" stroke-width="3.5" stroke-linecap="round" opacity="0.6"/>
+    <text x="65" y="134" font-family="monospace" font-size="22" font-weight="700" fill="url(#shieldGradLight)" opacity="0.3">&lt;</text>
+    <text x="163" y="134" font-family="monospace" font-size="22" font-weight="700" fill="url(#shieldGradLight)" opacity="0.3">&gt;</text>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="300" y="296" text-anchor="middle" font-family="'Outfit', 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="64" letter-spacing="-1">
+    <tspan fill="url(#restGradLight)">REST</tspan><tspan fill="url(#railWordGradLight)">RAIL</tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text x="300" y="326" text-anchor="middle" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="10" fill="#4a5570" opacity="0.5" letter-spacing="4">GUARDRAIL YOUR REST ENDPOINTS</text>
+</svg>

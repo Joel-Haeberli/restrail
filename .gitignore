@@ -1,0 +1,10 @@
+.claude
+./testdata**
+restrail
+dist/
+CLAUDE.md
+*.html
+*.json
+!/assets/release-notes/*.md
+!README.md
+!RELEASE_NOTES_TEMPLATE.md
